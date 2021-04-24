@@ -1,4 +1,4 @@
-# Todo App
+# To-Do App
 
 ## Table of Contents
 
@@ -32,4 +32,5 @@ npm install
 
 Enter task in input box and click create to add a task.
 Click red x beside task to remove task from screen.
+Click on task to complete it with a line-through.
 Todos are saved to and recalled from localstorage.

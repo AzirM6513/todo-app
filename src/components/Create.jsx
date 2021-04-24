@@ -26,7 +26,7 @@ const Create = ({ handleSubmit, addTodo }) => {
     <form onSubmit={handleSubmit}>
       <div>
         <label htmlFor='todo' className='form-label mt-4'>
-          new todo
+          new to-do
         </label>
         <input
           id='todo'
