@@ -19,7 +19,7 @@ These instructions will get you a copy of the project up and running on your loc
 Clone the repository
 
 ```
-git clone link
+git clone https://github.com/AzirM6513/todo-app
 ```
 
 Run npm install in the project directory
