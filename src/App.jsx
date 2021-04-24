@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Todos from './components/Todos';
 import Create from './components/Create';
 
+import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {

@@ -1,15 +1,17 @@
 import React from 'react';
 import Button from 'react-bootstrap/Button';
-import '../App.css';
 
 const Todo = ({ todo, deleteTodo }) => {
   const completeTodo = (id) => {
-    if (document.getElementById(id).classList.contains('todo-item-complete')) {
-      document.getElementById(id).classList.remove('todo-item-complete');
-      document.getElementById(id + 'btn').removeAttribute('disabled');
+    const todoElement = document.getElementById(id).classList;
+    const todoElementbtn = document.getElementById(id + 'btn');
+
+    if (todoElement.contains('todo-item-complete')) {
+      todoElement.remove('todo-item-complete');
+      todoElementbtn.removeAttribute('disabled');
     } else {
-      document.getElementById(id).classList.add('todo-item-complete');
-      document.getElementById(id + 'btn').setAttribute('disabled', true);
+      todoElement.add('todo-item-complete');
+      todoElementbtn.setAttribute('disabled', true);
     }
   };
 
